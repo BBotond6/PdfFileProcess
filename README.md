@@ -14,13 +14,13 @@ capabilities of the Poppler library in a C++ environment.
 
 - Build the executable:
 
-```g++ -o PdfReader.exe main.cpp $(pkg-config --cflags --libs poppler-glib)```
+  ```g++ -o PdfReader.exe main.cpp $(pkg-config --cflags --libs poppler-glib)```
 - Modify the code to specify the full path of your target PDF file:
 
-```"file:///path/to/your_pdf_file.pdf"```
+  ```"file:///path/to/your_pdf_file.pdf"```
 - Run the executable:
 
-```./PdfReader.exe```
+  ```./PdfReader.exe```
 
 Ensure that the modified script points to the correct full path of your PDF file.
 This example script serves as a valuable resource for developers seeking a starting point to integrate PDF reading capabilities into their C++ applications using the Poppler library.
