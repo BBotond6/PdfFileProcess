@@ -17,7 +17,7 @@ capabilities of the Poppler library in a C++ environment.
 ```g++ -o PdfReader.exe main.cpp $(pkg-config --cflags --libs poppler-glib)```
 - Modify the code to specify the full path of your target PDF file:
 
-```file:///path/to/your_pdf_file.pdf```
+```"file:///path/to/your_pdf_file.pdf"```
 - Run the executable:
 
 ```./PdfReader.exe```
